@@ -2,7 +2,6 @@
 
 $(document).on("pagecreate","#pageone",function(){
   
-  	$('#ontap').on("ontap",function random() {
-	return !Math.round(Math.random());
-}
-);
+  	$('#ontap').on("tap",function(){
+  $(this).hide();
+});
